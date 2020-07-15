@@ -550,7 +550,7 @@ export default {
        * 下面一二步是为了搭建出来目标树没有根节点躯干节点时的叶子选中，给此叶子搭建出根节点和躯干节点
        */
 
-      // let不存在状态提升 因此在函数调用之前赋值 并递归为以为数组！
+      // let不存在状态提升 因此在函数调用之前赋值 并递归为一维数组！
       let self_to_data = JSON.stringify(this.self_to_data);
       // 第一步
       let skeletonHalfCheckedNodes = JSON.parse(
@@ -661,7 +661,7 @@ export default {
        * 下面一二步是为了搭建出来目标树没有根节点躯干节点时的叶子选中，给此叶子搭建出根节点和躯干节点
        */
 
-      // let不存在状态提升 因此在函数调用之前赋值 并递归为以为数组！
+      // let不存在状态提升 因此在函数调用之前赋值 并递归为一维数组！
       let self_from_data = JSON.stringify(this.self_from_data);
       // 第一步
       let skeletonHalfCheckedNodes = JSON.parse(
